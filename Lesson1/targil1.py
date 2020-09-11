@@ -19,4 +19,3 @@ print("I am " + str(a) + " years old")
 
 mail = input("Enter you mail: ")
 print(mail)
-print("")
