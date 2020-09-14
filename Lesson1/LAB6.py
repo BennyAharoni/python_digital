@@ -25,11 +25,11 @@ elif menu_id == "3":
     dns_dict.update({input("Enter a URL: "): input("Enter IP: ")})
     print("The new dns_dict is:\n----------\n" + str(dns_dict))
 elif menu_id == "4":
-    str = input("Enter a string: ")
-    if str == str[::-1]:
-        print(str + " is a palindrome")
+    word = input("Enter a string: ")
+    if w == word[::-1]:
+        print(word + " is a palindrome")
     else:
-        print(str + " is not a palindrome")
+        print(word + " is not a palindrome")
 
 else:
     print("Enter 1-4 only!")
