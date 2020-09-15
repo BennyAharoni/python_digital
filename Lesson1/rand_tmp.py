@@ -5,6 +5,7 @@ print("Getting random numbers...\n")
 sleep(2)
 num1 = randint(1, 37)
 num2 = randint(1, 37)
+print("1st number: " + str(num1) + "\n2nd number: " + str(num2))
 
 if num1 == num2:
     print("You won 100$\n")

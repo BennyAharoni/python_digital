@@ -26,7 +26,7 @@ elif menu_id == "3":
     print("The new dns_dict is:\n----------\n" + str(dns_dict))
 elif menu_id == "4":
     word = input("Enter a string: ")
-    if w == word[::-1]:
+    if word == word[::-1]:
         print(word + " is a palindrome")
     else:
         print(word + " is not a palindrome")
