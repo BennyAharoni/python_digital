@@ -8,7 +8,8 @@ print("You have: " + str(turns) + " turns\nYour change: " + str(money % 3) + " I
 prize = 0
 
 for i in range(turns):
-    print("Round Number " + str(i + 1) + " :\n----------------")
+    print("Rolling Cubes for Round Number " + str(i + 1) + " :\n----------------")
+    sleep(1)
     cube1 = randint(1, 6)
     cube2 = randint(1, 6)
     print("Cube 1: " + str(cube1) + "\nCube 2: " + str(cube2) + "\n")
@@ -23,4 +24,6 @@ for i in range(turns):
     elif(cube2 == 2):
         prize += 40
 
+print("Calculating your prize...")
+sleep(2)
 print("Your prize: " + str(prize))
