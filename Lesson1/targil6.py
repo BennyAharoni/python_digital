@@ -21,3 +21,5 @@ for i in range(3):
     print("Printing student number " + str(i+1) + " Details...\n")
     sleep(1)
     print("Full name: " + name + "\nAge: " + str(age) + "\nPhone: " + phone + "\n----------\n")
+
+print("Bye bye")
